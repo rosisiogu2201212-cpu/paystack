@@ -27,7 +27,8 @@
   }
 
   function image(name) {
-    root.innerHTML = `<img class="reference-image" src="assets/${name}" alt="">`;
+    const version = name === 'payment-reference.png' ? '?v=account-totals-2' : '';
+    root.innerHTML = `<img class="reference-image" src="assets/${name}${version}" alt="">`;
   }
 
   function addHeaderLinks() {
