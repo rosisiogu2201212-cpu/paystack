@@ -21,7 +21,7 @@ The deployed demo is reachable by anyone with its URL. It currently displays sam
 
 - `PAYSTACK_SECRET_KEY`: server-only Paystack test or live secret key.
 - `APP_BASE_URL`: the public HTTPS address of the deployed site; keep the local value for development.
-- `MAX_PAYMENT_NAIRA`: maximum amount accepted by this prototype, set to the displayed balance of ₦595,997.
+- `MAX_PAYMENT_NAIRA`: maximum amount accepted by this prototype, set to the displayed balance of ₦2,083,295.
 - `ALLOW_LIVE_PAYMENTS`: must be changed to `true` before a live secret key is accepted.
 
 The current portal has sample student details and no sign-in, student account database, or payment ledger. Before accepting real student payments, connect the signed-in student's email and outstanding balance to a trusted server-side account system, persist payment references and receipts in a database, and reconcile payments with verified transactions or Paystack webhooks. Do not use a browser-supplied amount as the source of truth for a real account balance.

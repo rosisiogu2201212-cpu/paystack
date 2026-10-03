@@ -17,7 +17,7 @@ loadEnvFile();
 const PORT = readInteger(process.env.PORT, 3000, 1, 65535);
 const HOST = process.env.HOST || (process.env.RENDER ? '0.0.0.0' : '127.0.0.1');
 const APP_BASE_URL = parseBaseUrl(process.env.APP_BASE_URL || process.env.RENDER_EXTERNAL_URL || `http://${HOST}:${PORT}`);
-const MAX_PAYMENT_NAIRA = readInteger(process.env.MAX_PAYMENT_NAIRA, 595997, 100, 100000000);
+const MAX_PAYMENT_NAIRA = readInteger(process.env.MAX_PAYMENT_NAIRA, 2083295, 100, 100000000);
 
 const MIME_TYPES = {
   '.css': 'text/css; charset=utf-8',
