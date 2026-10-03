@@ -1,0 +1,12 @@
+{
+  "name": "covenant-student-portal-paystack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Covenant Student Portal prototype with server-side Paystack checkout",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

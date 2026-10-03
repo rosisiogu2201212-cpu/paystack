@@ -1,0 +1,20 @@
+html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#fff}
+#shell{display:none!important}
+#referenceSurface{position:fixed;inset:0;overflow:hidden;background:#fff;z-index:999}
+#referenceSurface .reference-image{display:block;width:100%;height:100%;object-fit:fill;user-select:none;pointer-events:none}
+#referenceSurface .hotspot{position:absolute;z-index:2;display:block;border:0;padding:0;margin:0;background:transparent;cursor:pointer}
+#referenceSurface .choice-dot{position:absolute;z-index:3;width:6px;height:6px;border-radius:50%;background:#2574b8;pointer-events:none}
+#referenceSurface .prototype{position:absolute;inset:0;overflow:auto;background:#fff;font:15px/1.45 Arial,Helvetica,sans-serif;color:#27313a}
+#referenceSurface .prototype-header{height:60px;border-bottom:1px solid #ddd;display:flex;align-items:center;justify-content:flex-end;padding:0 24px;color:#6c7880}
+#referenceSurface .prototype-main{padding:24px;max-width:880px;margin-left:264px}
+#referenceSurface .prototype-card{border:1px solid #ddd;border-radius:4px;background:#fff}
+#referenceSurface .prototype-title{font-size:25px;background:#f7f7f7;padding:14px 22px;border-bottom:1px solid #ddd}
+#referenceSurface .prototype-body{padding:22px}
+#referenceSurface .prototype button{border:0;border-radius:4px;padding:9px 14px;background:#a4acb0;color:#fff;cursor:pointer}
+#referenceSurface .prototype button.primary{background:#337ab7}
+#referenceSurface .prototype input{font:inherit;padding:8px;border:1px solid #ccc;border-radius:3px}
+#referenceSurface .prototype table{border-collapse:collapse;width:100%}
+#referenceSurface .prototype th,#referenceSurface .prototype td{border:1px solid #ddd;text-align:left;padding:9px}
+#referenceSurface .prototype th{background:#f4f4f4}
+#referenceSurface .prototype .notice{padding:10px 12px;margin:16px 0;background:#fff8e6;border:1px solid #e7d9ab;color:#6a571f}
+@media(max-width:700px){#referenceSurface .prototype-main{margin-left:0;padding:16px}}

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: covenant-student-portal
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: PAYSTACK_SECRET_KEY
+        sync: false
+      - key: ALLOW_LIVE_PAYMENTS
+        value: "false"
+      - key: MAX_PAYMENT_NAIRA
+        value: "595997"
