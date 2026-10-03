@@ -18,3 +18,6 @@ html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#fff}
 #referenceSurface .prototype th{background:#f4f4f4}
 #referenceSurface .prototype .notice{padding:10px 12px;margin:16px 0;background:#fff8e6;border:1px solid #e7d9ab;color:#6a571f}
 @media(max-width:700px){#referenceSurface .prototype-main{margin-left:0;padding:16px}}
+#referenceSurface::before,#referenceSurface::after{position:absolute;left:2.4%;width:11.4%;padding:0 .2%;background:#fafafa;color:#667987;font:16px/1.5 Arial,Helvetica,sans-serif;pointer-events:none}
+#referenceSurface::before{content:'500 Level';top:28.3%;height:4.4%;padding-top:.2%}
+#referenceSurface::after{content:'Program - Information and\A Communication Engineering';top:32.8%;height:7%;padding-top:.3%;white-space:pre}
